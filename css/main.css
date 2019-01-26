@@ -1,0 +1,91 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+/*nav styles*/
+nav{
+    border-bottom:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+#logo{
+    padding-top:20px;
+}
+/*section styles*/
+section{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+/*article styles*/
+ul {
+    list-style-type: none;
+    padding:0;
+}
+
+/*css selectors*/
+li:first-child {
+    background-color: yellow;
+}
+li::first-letter { 
+    color: #8A2BE2;
+}
+/*additional selectors*/
+article > h2{
+    color:#FF0000;
+}
+header, footer{
+    text-align:center;
+}
+/*pseudo-element selectors*/
+a:hover{
+    color:#008000;
+}
+h2:hover{
+    font-size: 200%;
+}
+/*color properties, responsive text*/
+footer{
+    color:rgba(255, 105, 180, .8);
+}
+h1{
+    color:hsl(248, 100%, 50%);
+    font-size: calc(24px + 3vw);
+}
+body{
+    font-size: calc(12px + 1vw);
+}
+
+/*breakfast page*/
+.background-breakfast {
+
+    background-image: url("../img/breakfast.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.background-lunch {
+
+    background-image: url("../img/lunch.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
